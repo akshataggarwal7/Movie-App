@@ -94,7 +94,7 @@ function App() {
     <Container>
       <Header>
         <AppName>
-          <MovieImage src="/movie-icon.svg" />
+          <MovieImage src="https://play-lh.googleusercontent.com/5Y97X0kfd9uznAJXFOmLXEjqNTjJNZ07nKOmPvPbFUoUKkBswIYGIzMOzcYnF9bMdw" />
           React Movie App
         </AppName>
         <SearchBox>

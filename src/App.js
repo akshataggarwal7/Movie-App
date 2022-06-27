@@ -41,7 +41,6 @@ const SearchIcon = styled.img`
   height: 32px;
 `;
 const MovieImage = styled.img`
-  background-image: url("https://play-lh.googleusercontent.com/5Y97X0kfd9uznAJXFOmLXEjqNTjJNZ07nKOmPvPbFUoUKkBswIYGIzMOzcYnF9bMdw");
   width: 48px;
   height: 48px;
   margin: 15px;
@@ -99,7 +98,7 @@ function App() {
           React Movie App
         </AppName>
         <SearchBox>
-          <SearchIcon src="./public/search-icon.svg" />
+          <SearchIcon src="../public/search-icon.svg" />
           <SearchInput
             placeholder="Search Movie"
             value={searchQuery}
@@ -118,7 +117,7 @@ function App() {
             />
           ))
         ) : (
-          <Placeholder src="./public/movie-icon.svg" />
+          <Placeholder src="../public/movie-icon.svg" />
         )}
       </MovieListContainer>
     </Container>

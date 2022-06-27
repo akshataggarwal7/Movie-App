@@ -117,7 +117,7 @@ function App() {
             />
           ))
         ) : (
-          <Placeholder src="/movie-icon.svg" />
+          <Placeholder src="./public/movie-icon.svg" />
         )}
       </MovieListContainer>
     </Container>

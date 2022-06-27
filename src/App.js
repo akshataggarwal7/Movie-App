@@ -41,6 +41,7 @@ const SearchIcon = styled.img`
   height: 32px;
 `;
 const MovieImage = styled.img`
+background-image: url("https://play-lh.googleusercontent.com/5Y97X0kfd9uznAJXFOmLXEjqNTjJNZ07nKOmPvPbFUoUKkBswIYGIzMOzcYnF9bMdw");
   width: 48px;
   height: 48px;
   margin: 15px;

@@ -37,10 +37,16 @@ const SearchBox = styled.div`
   background-color: white;
 `;
 const SearchIcon = styled.img`
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 32px;
   height: 32px;
 `;
 const MovieImage = styled.img`
+  background-image: url("https://play-lh.googleusercontent.com/5Y97X0kfd9uznAJXFOmLXEjqNTjJNZ07nKOmPvPbFUoUKkBswIYGIzMOzcYnF9bMdw");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 48px;
   height: 48px;
   margin: 15px;
@@ -94,11 +100,11 @@ function App() {
     <Container>
       <Header>
         <AppName>
-          <MovieImage src="./image/movie-icon.svg"/>
+          <MovieImage />
           React Movie App
         </AppName>
         <SearchBox>
-          <SearchIcon src="./image/search-icon.png" />
+          <SearchIcon />
           <SearchInput
             placeholder="Search Movie"
             value={searchQuery}
@@ -117,7 +123,7 @@ function App() {
             />
           ))
         ) : (
-          <Placeholder src="./image/movie-icon.svg" />
+          <Placeholder src="https://play-lh.googleusercontent.com/5Y97X0kfd9uznAJXFOmLXEjqNTjJNZ07nKOmPvPbFUoUKkBswIYGIzMOzcYnF9bMdw" />
         )}
       </MovieListContainer>
     </Container>

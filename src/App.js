@@ -98,7 +98,7 @@ function App() {
           React Movie App
         </AppName>
         <SearchBox>
-          <SearchIcon src="./image/search-icon.svg" />
+          <SearchIcon src="./image/search-icon.png" />
           <SearchInput
             placeholder="Search Movie"
             value={searchQuery}
